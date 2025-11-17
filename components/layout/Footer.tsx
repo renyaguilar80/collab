@@ -27,7 +27,7 @@ export default function Footer({ lang, dictionary }: FooterProps) {
           {/* Logo e Descrição */}
           <div className='col-md-4'>
             <div className='mb-3'>
-              <Logo className='text-white' />
+              <Logo className='text-white' lang={lang} />
             </div>
             <p className='text-white-50'>{dictionary.footer.description}</p>
           </div>
