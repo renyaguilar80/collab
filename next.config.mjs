@@ -5,6 +5,10 @@ const nextConfig = {
   // Habilita a exportação estática (SSG)
   output: 'export',
 
+  // DESCOMENTE a linha abaixo se o repo NÃO estiver em username.github.io
+  // (ex.: se for renyaguilar80.github.io/collab, use basePath: '/collab')
+  // basePath: '/collab',
+
   // O 'trailingSlash: true' é opcional, mas às vezes
   // ajuda a evitar problemas de rotas 404 entre /sobre e /sobre/
   trailingSlash: true,
