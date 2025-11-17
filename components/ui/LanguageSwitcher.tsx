@@ -1,6 +1,7 @@
 'use client';
 
 import { usePathname } from 'next/navigation';
+import Link from 'next/link';
 import { i18n, type Locale } from '@/i18n-config';
 import { useState, useRef, useEffect } from 'react';
 
@@ -92,7 +93,7 @@ export default function LanguageSwitcher() {
           style={{ minWidth: '160px', zIndex: 1050 }}
         >
           {i18n.locales.map((locale) => (
-            <a
+            <Link
               key={locale}
               href={getLanguageLink(locale)}
               className={`w-100 d-flex align-items-center gap-3 px-3 py-2 border-0 text-start text-decoration-none ${
@@ -118,7 +119,7 @@ export default function LanguageSwitcher() {
             >
               <span className='fs-5'>{languageFlags[locale]}</span>
               <span>{languageNames[locale]}</span>
-            </a>
+            </Link>
           ))}
         </div>
       )}

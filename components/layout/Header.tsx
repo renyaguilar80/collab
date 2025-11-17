@@ -21,7 +21,7 @@ export default function Header({ lang, dictionary }: HeaderProps) {
     <nav className='navbar navbar-light bg-white shadow-sm sticky-top'>
       <div className='container'>
         <div className='d-flex justify-content-between align-items-center w-100 py-2'>
-          <Logo />
+          <Logo lang={lang} />
 
           {/* <ul className='navbar-nav d-flex flex-row gap-4 mb-0'>
             <li className='nav-item'>
