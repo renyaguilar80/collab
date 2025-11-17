@@ -45,8 +45,8 @@ export default function LanguageSwitcher() {
 
   // Função para gerar o link do idioma
   const getLanguageLink = (locale: Locale): string => {
-    // Para GitHub Pages de usuário (robertarfa.github.io)
-    // A URL é: https://robertarfa.github.io/pt/
+    // Para GitHub Pages em subpasta: https://renyaguilar80.github.io/collab/
+    // O basePath '/collab' é adicionado automaticamente pelo Next.js
     if (segments.length <= 1) {
       return `/${locale}/`;
     }
@@ -64,7 +64,7 @@ export default function LanguageSwitcher() {
           e.preventDefault();
           setIsOpen(!isOpen);
         }}
-  className='btn btn-outline-secondary d-flex align-items-center gap-2 language-button px-3 py-2'
+        className='btn btn-outline-secondary d-flex align-items-center gap-2 language-button px-3 py-2'
         aria-label='Selecionar idioma'
         aria-expanded={isOpen}
       >
