@@ -10,12 +10,12 @@ interface LogoProps {
 export default function Logo({ className = '', lang }: LogoProps) {
   return (
     <Link
-      href={`/${lang}`}
+      href={`/${lang}/`}
       className={`navbar-brand text-primary-orange fw-bold ${className}`}
       style={{ lineHeight: 0 }}
     >
       <Image
-        src='/collab/layout/logo.svg'
+        src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/layout/logo.svg`}
         alt='CollabTranslation Logo'
         width={220}
         height={60}

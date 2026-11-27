@@ -46,8 +46,7 @@ export default function LanguageSwitcher() {
 
   // Função para gerar o link do idioma
   const getLanguageLink = (locale: Locale): string => {
-    // Para GitHub Pages em subpasta: https://renyaguilar80.github.io/collab/
-    // O basePath '/collab' é adicionado automaticamente pelo Next.js
+    // Se houver basePath (NEXT_PUBLIC_BASE_PATH), o Next.js o adiciona automaticamente
     if (segments.length <= 1) {
       return `/${locale}/`;
     }

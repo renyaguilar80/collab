@@ -1,24 +1,31 @@
 'use client';
 
 import { useEffect } from 'react';
-import { useRouter } from 'next/navigation';
 import { i18n } from '@/i18n-config';
 
-export default function RootPage() {
-  const router = useRouter();
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
+const target = `${basePath}/${i18n.defaultLocale}/`;
 
+export default function RootPage() {
   useEffect(() => {
-    router.replace(`/${i18n.defaultLocale}`);
-  }, [router]);
+    // Redireciona de "/" para o idioma padrão (ex.: /en/)
+    window.location.replace(target);
+  }, []);
 
   return (
-    <div style={{ 
-      display: 'flex', 
-      justifyContent: 'center', 
-      alignItems: 'center', 
-      height: '100vh' 
-    }}>
-      <p>Redirecting...</p>
+    <div
+      style={{
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        height: '100vh',
+      }}
+    >
+      {/* Fallback sem JavaScript */}
+      <meta httpEquiv='refresh' content={`0; url=${target}`} />
+      <p>
+        Redirecting... <a href={target}>Click here</a>
+      </p>
     </div>
   );
 }

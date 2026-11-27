@@ -5,8 +5,10 @@ const nextConfig = {
   // Habilita a exportação estática (SSG)
   output: 'export',
 
-  // basePath necessário porque o site está em renyaguilar80.github.io/collab
-  basePath: '/collab',
+  // Site servido na raiz do domínio próprio (collabtranslation.com),
+  // por isso não há basePath. Se um dia voltar a publicar em
+  // renyaguilar80.github.io/collab, defina NEXT_PUBLIC_BASE_PATH=/collab no build.
+  basePath: process.env.NEXT_PUBLIC_BASE_PATH || '',
 
   // O 'trailingSlash: true' é opcional, mas às vezes
   // ajuda a evitar problemas de rotas 404 entre /sobre e /sobre/
