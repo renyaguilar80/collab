@@ -6,33 +6,33 @@
     "contact": "Contato"
   },
   "hero": {
-    "title": "Traduza hoje, aperte as mãos amanhã",
-    "subtitle": "Desbloqueie seu potencial e redefina seus limites conosco. Nossos tradutores adaptam as traduções para o seu negócio, garantindo que sua voz cruze as fronteiras.",
+    "title": "Traduza hoje, feche contratos amanhã",
+    "subtitle": "Desbloqueie seu potencial e redefina seus limites. Nossa equipe adapta as traduções para seu negócio, garantindo que sua voz cruze as fronteiras.",
     "cta": "Solicite agora"
   },
   "edge": {
-    "title": "Descubra nossa vantagem única",
-    "subtitle": "É nosso compromisso espalhar sua voz. Entregamos traduções e localizações eficazes e eficientes combinadas com tradutores profissionais para ajudá-lo a alcançar seus objetivos.",
+    "title": "Descubra as vantagens",
+    "subtitle": "É nosso compromisso espalhar sua voz. Entregamos traduções e localizações eficazes e eficientes combinadas com tradutores profissionais para ajudar sua empresa a alcançar seus objetivos.",
     "features": [
       {
-        "title": "Traduções Personalizadas",
-        "description": "Colaboramos com uma equipe altamente experiente de tradutores profissionais para criar traduções personalizadas que impulsionam o crescimento e o engajamento global do seu negócio."
+        "title": "Traduções personalizadas",
+        "description": "Colaboramos com uma equipe altamente experiente de tradutores profissionais para oferecer traduções personalizadas que impulsionam o crescimento e o engajamento global do seu negócio."
       },
       {
-        "title": "Localizações de Ponta",
-        "description": "Com o auxílio de especialistas nativos em localização, entregamos adaptações de ponta que se alinham precisamente com a linguagem e nuances culturais do seu público."
+        "title": "Localização e adaptação cultural",
+        "description": "Com o auxílio de especialistas nativos, entregamos adaptações de ponta que se alinham precisamente com a linguagem e nuances culturais do seu público."
       },
       {
-        "title": "Atendimento ao Cliente Dedicado",
-        "description": "Oferecemos um serviço de atendimento ao cliente dedicado, disponível em todos os momentos, para auxiliar nossos clientes a determinar a melhor abordagem."
+        "title": "Atendimento ao cliente",
+        "description": "Oferecemos um serviço de atendimento dedicado ao cliente, disponível em todos os momentos, para definir a melhor abordagem."
       }
     ]
   },
   "languages": {
-    "trusted": "SOMOS CONFIÁVEIS POR EMPRESAS INTERNACIONAIS CONSOLIDADAS",
-    "subtitle": "CONHEÇA NOSSOS SERVIÇOS DE IDIOMAS",
-    "title": "Falantes nativos, fluentes em ambos os idiomas de origem e destino",
-    "description": "O processo de tradução começa com o recebimento do documento, seguido por uma análise de conteúdo para especificar objetivos. Em seguida, selecionamos os melhores profissionais para garantir a entrega de traduções de alta qualidade.",
+    "trusted": "PARCEIROS DE CONFIANÇA DE MARCAS GLOBAIS",
+    "subtitle": "CONHEÇA NOSSOS SERVIÇOS",
+    "title": "Tradutores nativos, fluentes em ambos os idiomas de origem e destino",
+    "description": "O processo de tradução começa com o recebimento do documento, seguido por uma análise do conteúdo para determinar os objetivos. Em seguida, selecionamos os melhores profissionais para garantir a entrega de traduções de alta qualidade.",
     "services": [
       {
         "number": "01.",
